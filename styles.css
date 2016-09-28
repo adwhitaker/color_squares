@@ -5,6 +5,16 @@ body {
   text-align: center;
   font-size: 1.5em;
 }
+#reset_squares {
+  background-color: #dc143c;
+  color: #00fa9a;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+  border-radius: 20px;
+  border: darkred solid 2px;
+  padding: 5px 10px 5px 10px;
+}
 .c {
   color: #e7903c;
 }

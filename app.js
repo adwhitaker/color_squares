@@ -17,4 +17,14 @@ $(document).ready(function () {
       $box.addClass('beige');
     }
   })
+// this listener resets the squares to beige
+  $('.bttn').on('click', '#reset_squares', function () {
+    var $resetBox = $('.box');
+    $resetBox.removeClass('blue');
+    $resetBox.removeClass('green');
+    $resetBox.removeClass('purple');
+    if ( $resetBox.hasClass('beige') ) {
+      $resetBox.addClass('beige')
+    }
+  })
 });
